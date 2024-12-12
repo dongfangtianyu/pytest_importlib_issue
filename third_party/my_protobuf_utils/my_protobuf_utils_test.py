@@ -1,5 +1,4 @@
-# from third_party.my_protobuf_utils.my_protobuf_utils import _read_varint
-
+from third_party.my_protobuf_utils import my_protobuf_utils
 
 def test_a():
-    pass
+    print(my_protobuf_utils._read_varint)

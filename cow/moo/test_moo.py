@@ -1,5 +1,5 @@
-from cow.moo.farm import udder
+from cow.moo.moo import data
 
 
 def test_moo():
-    pass
+    print(data)
